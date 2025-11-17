@@ -34,7 +34,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 1. Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/usuario/repositorio-evaluacion-final.git
+git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 ```
 
 2. Abre el proyecto en IntelliJ IDEA.
@@ -46,7 +46,7 @@ git clone https://github.com/usuario/repositorio-evaluacion-final.git
 
 ---
 
-**Repositorio GitHub:** \[Pega aquí el enlace al repositorio]
+**Repositorio GitHub:** \https://github.com/IvaDuoc/salmontt-colecciones.git
 **Fecha de entrega:** \[17/11/2025]
 
 ---
