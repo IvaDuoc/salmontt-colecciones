@@ -10,7 +10,7 @@ import model.CentrosCultivo;
 public class Main {
     public static void main(String[] args) {
         GestorDatos col = new GestorDatos("/Users/AReve/Desktop/java/Ivan_Reveco_Construyendo una lista de objetos desde archivo_Semana4/resources/centros.txt");//este string es la direccion del archivo .txt
-        System.out.println(col.toString());
+        System.out.println(col.toString()); //muestra la lista leida del archivo .txt
         ArrayList<CentrosCultivo> lista = new ArrayList<>();
         for (CentrosCultivo i : col.getDatos()){
             if(i.getProduccion() > 2){ //la condicion para llegar a la lista final es tener una produccion mayor a 2
@@ -19,7 +19,7 @@ public class Main {
         }
         System.out.println("");
         for (CentrosCultivo i : lista){
-            System.out.println(i.toString());
+            System.out.println(i.toString()); //mustra la lista filtrada
         }
     }
 }
