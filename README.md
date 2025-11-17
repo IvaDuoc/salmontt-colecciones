@@ -1,0 +1,58 @@
+![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
+# 🧠 Actividad formativa semana 4 – Desarrollo Orientado a Objetos I
+
+## 👤 Autor del proyecto
+- **Nombre completo:** Iván Reveco Molina
+- **Sección:** 002
+- **Carrera:** Analista rpogramador computacional
+- **Sede:** Online
+
+---
+
+## 📘 Descripción general del sistema
+Este proyecto corresponde a la Actividad formativa de la semana 4 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
+
+El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
+
+---
+
+## 🧱 Estructura general del proyecto
+
+```plaintext
+📁 src/
+├── ui/         # Clase principal con el método main
+├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
+└── data/        # Clases para la carga y lectura de archivos .txt
+````
+
+---
+
+
+
+## ⚙️ Instrucciones para clonar y ejecutar el proyecto
+
+1. Clona el repositorio desde GitHub:
+
+```bash
+git clone https://github.com/usuario/repositorio-evaluacion-final.git
+```
+
+2. Abre el proyecto en IntelliJ IDEA.
+
+3. Verifica que en el constructor este la direccion del archivo `.txt`.
+
+4. Ejecuta el archivo `Main.java` desde el paquete `ui`.
+
+
+---
+
+**Repositorio GitHub:** \[Pega aquí el enlace al repositorio]
+**Fecha de entrega:** \[17/11/2025]
+
+---
+
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad formativa de la semana 4
+
+
+
+

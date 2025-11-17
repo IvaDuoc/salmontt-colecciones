@@ -1,0 +1,5 @@
+lugar1;comuna1;1
+lugar2;comuna2;2
+lugar3;comuna3;3
+lugar4;comuna4;4
+lugar5;comuna5;5
