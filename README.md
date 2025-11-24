@@ -10,7 +10,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Actividad formativa de la semana 4 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
+Este proyecto corresponde a la Actividad sumativa de la semana 5 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -22,7 +22,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 📁 src/
 ├── ui/         # Clase principal con el método main
 ├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
-└── data/        # Clases para la carga y lectura de archivos .txt
+└── data/        # Clases para la carga y lectura de archivos .txt o .csv (con ;)
 ````
 
 ---
@@ -39,7 +39,7 @@ git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 
 2. Abre el proyecto en IntelliJ IDEA.
 
-3. Verifica que en el constructor este la direccion del archivo `.txt`.
+3. Verifica que en el constructor este la direccion del archivo `.txt` o `.csv` (con ;).
 
 4. Ejecuta el archivo `Main.java` desde el paquete `ui`.
 
