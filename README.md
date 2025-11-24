@@ -4,7 +4,7 @@
 ## 👤 Autor del proyecto
 - **Nombre completo:** Iván Reveco Molina
 - **Sección:** 002
-- **Carrera:** Analista rpogramador computacional
+- **Carrera:** Analista programador computacional
 - **Sede:** Online
 
 ---
