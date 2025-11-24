@@ -1,6 +1,5 @@
 package ui;
 import java.util.ArrayList;
-import java.util.Collections;
 
 import data.GestorDatos;
 import model.CentrosCultivo;
@@ -9,7 +8,7 @@ import model.CentrosCultivo;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        GestorDatos col = new GestorDatos("/Users/AReve/Desktop/java/Ivan_Reveco_Construyendo una lista de objetos desde archivo_Semana4/resources/cen.csv");//este string es la direccion del archivo .txt
+        GestorDatos col = new GestorDatos("/Users/AReve/Desktop/java/Ivan_Reveco_Construyendo una lista de objetos desde archivo_Semana4/resources/centros.txt");//este string es la direccion del archivo .txt o .csv (con ;)
         System.out.println(col.toString()); //muestra la lista leida del archivo .txt o .csv (con ;)
         ArrayList<CentrosCultivo> lista = new ArrayList<>();
         for (CentrosCultivo i : col.getDatos()){
