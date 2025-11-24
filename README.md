@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Actividad formativa semana 4 – Desarrollo Orientado a Objetos I
+# 🧠 Actividad sumativa semana 5 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Iván Reveco Molina
@@ -47,11 +47,11 @@ git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 ---
 
 **Repositorio GitHub:** \https://github.com/IvaDuoc/salmontt-colecciones.git
-**Fecha de entrega:** \[17/11/2025]
+**Fecha de entrega:** \[24/11/2025]
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad formativa de la semana 4
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad sumativa de la semana 5
 
 
 

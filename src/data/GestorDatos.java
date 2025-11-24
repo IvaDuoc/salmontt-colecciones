@@ -19,8 +19,9 @@ public class GestorDatos {
                 String[] partes = linea.split(";");
                 datos.add(new CentrosCultivo(partes[0].trim(), partes[1].trim(), Integer.parseInt(partes[2].trim()))); //los datos dentro del constructor son lugar, comuna y la produccion en toneladas
             }
-        } catch (IOException e) {
+        } catch (Exception e) { //antes solo detectaba si habia un problema al abrir el archivo pero ahora tambien detecta si en el espacio del contructor que pide un entero le coloco un un string que no se puede convertir a entero
             System.out.println("Error al leer datos");
+            System.out.println(e.getMessage());
         }
     }
     public ArrayList<CentrosCultivo> getDatos() {
