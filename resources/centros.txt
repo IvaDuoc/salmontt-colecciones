@@ -1,5 +1,10 @@
-lugar1;comuna1;1
-lugar2;comuna2;2
-lugar3;comuna3;3
-lugar4;comuna4;4
-lugar5;comuna5;5
+lugar1;comuna1;1;centro
+lugar2;comuna2;2;centro
+lugar3;comuna3;3;centro
+lugar4;comuna4;4;centro
+lugar5;comuna5;5;centro
+lugar1;comuna1;1;planta
+lugar2;comuna2;2;planta
+lugar3;comuna3;3;planta
+lugar4;comuna4;4;planta
+lugar5;comuna5;5;planta

@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Actividad sumativa semana 5 – Desarrollo Orientado a Objetos I
+# 🧠 Actividad formativa semana 6 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Iván Reveco Molina
@@ -10,7 +10,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Actividad sumativa de la semana 5 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
+Este proyecto corresponde a la Actividad formativa de la semana 6 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -21,7 +21,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├── ui/         # Clase principal con el método main
-├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
+├── model/       # Clases de dominio (UnidadOperativa, CentrosCultivo, PlantaProceso)
 └── data/        # Clases para la carga y lectura de archivos .txt o .csv (con ;)
 ````
 
@@ -47,11 +47,11 @@ git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 ---
 
 **Repositorio GitHub:** \https://github.com/IvaDuoc/salmontt-colecciones.git
-**Fecha de entrega:** \[24/11/2025]
+**Fecha de entrega:** \[1/12/2025]
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad sumativa de la semana 5
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad formativa de la semana 6
 
 
 
