@@ -14,6 +14,12 @@ public class CentrosCultivo extends UnidadOperativa {
     public void setProduccion(int produccion) {
         this.produccion = produccion;
     }
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Centro de Cultivo"); //para que quede clarocque tipo de objeto es
+        super.mostrarInformacion();
+        System.out.println("Produccion: " + produccion);
+    }
 
     @Override
     public String toString() {

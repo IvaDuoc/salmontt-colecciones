@@ -20,8 +20,14 @@ public class UnidadOperativa {
     public void setComuna(String comuna) {
         this.comuna = comuna;
     }
+    public void mostrarInformacion(){
+        System.out.println("Lugar: " + lugar);
+        System.out.println("Comuna: " + comuna);
+    }
+
     @Override
     public String toString() {
         return lugar + ", " + comuna;
     }
+
 }

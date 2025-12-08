@@ -13,6 +13,12 @@ public class PlantaProceso extends UnidadOperativa {
     public void setCapacidad(int capacidad) {
         this.capacidad = capacidad;
     }
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Planta de Proceso"); //para que quede clarocque tipo de objeto es
+        super.mostrarInformacion();
+        System.out.println("Capacidad: " + capacidad);
+    }
 
     @Override
     public String toString() {
