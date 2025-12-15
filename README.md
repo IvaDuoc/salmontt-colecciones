@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Actividad formativa semana 7 – Desarrollo Orientado a Objetos I
+# 🧠 Actividad sumativa semana 8 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Iván Reveco Molina
@@ -10,7 +10,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Actividad formativa de la semana 7 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
+Este proyecto corresponde a la Actividad sumativa de la semana 8 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -21,8 +21,8 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├── ui/         # Clase principal con el método main
-├── model/       # Clases de dominio (UnidadOperativa, CentrosCultivo, PlantaProceso)
-└── data/        # Clases para la carga y lectura de archivos .txt o .csv (con ;)
+├── model/       # Clases de dominio (UnidadOperativa, CentrosCultivo, PlantaProceso, etc.)
+└── data/        # Clases para la carga y lectura de archivos .txt o .csv (con ;), y manejo de la informacion (GestorDatos y GestorEntidades)
 ````
 
 ---
@@ -51,7 +51,7 @@ git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad formativa de la semana 7
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad sumativa de la semana 8
 
 
 

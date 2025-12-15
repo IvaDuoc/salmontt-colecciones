@@ -22,6 +22,11 @@ public class CentrosCultivo extends UnidadOperativa {
     }
 
     @Override
+    public String mostrarResumen() {
+        return super.mostrarResumen() + ", Produccion: " + produccion + " toneladas";
+    }
+
+    @Override
     public String toString() {
         return getLugar() + ", " + getComuna() + ", " + produccion + " toneladas producidas";
     }

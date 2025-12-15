@@ -19,6 +19,10 @@ public class PlantaProceso extends UnidadOperativa {
         super.mostrarInformacion();
         System.out.println("Capacidad: " + capacidad);
     }
+    @Override
+    public String mostrarResumen(){
+        return super.mostrarResumen() + ", Capacidad: " + capacidad + " toneladas";
+    }
 
     @Override
     public String toString() {

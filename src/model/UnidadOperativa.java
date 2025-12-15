@@ -1,6 +1,6 @@
 package model;
 
-public class UnidadOperativa {
+public abstract class UnidadOperativa implements Registrable { //es equivalente a la clase entidad del ejemplo
     private String lugar; //este es el nombre del lugar segun los pedido en la actividad
     private String comuna;
 
@@ -23,6 +23,11 @@ public class UnidadOperativa {
     public void mostrarInformacion(){
         System.out.println("Lugar: " + lugar);
         System.out.println("Comuna: " + comuna);
+    }
+
+    @Override
+    public String mostrarResumen() {
+        return lugar +  ", " + comuna;
     }
 
     @Override
