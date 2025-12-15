@@ -39,15 +39,12 @@ git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 
 2. Abre el proyecto en IntelliJ IDEA.
 
-3. Verifica que en el constructor este la direccion del archivo `.txt` o `.csv` (con ;).
-
-4. Ejecuta el archivo `Main.java` desde el paquete `ui`.
-
+3. Ejecuta el archivo `Main.java` desde el paquete `ui`.
 
 ---
 
 **Repositorio GitHub:** \https://github.com/IvaDuoc/salmontt-colecciones.git
-**Fecha de entrega:** \[8/12/2025]
+**Fecha de entrega:** \[15/12/2025]
 
 ---
 
