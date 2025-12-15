@@ -21,7 +21,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├── ui/         # Clase principal con el método main
-├── model/       # Clases de dominio (UnidadOperativa, CentrosCultivo, PlantaProceso, etc.)
+├── model/       # Clases de dominio (UnidadOperativa, CentrosCultivo, PlantaProceso, Registrable)
 └── data/        # Clases para la carga y lectura de archivos .txt o .csv (con ;), y manejo de la informacion (GestorDatos y GestorEntidades)
 ````
 
