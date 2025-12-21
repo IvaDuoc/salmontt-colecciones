@@ -27,13 +27,13 @@ public class GestorDatos {
                 String[] partes = linea.split(";");
                 if(partes[3].strip().toLowerCase().equals("centro")){
                     datosCentro.add(new CentrosCultivo(partes[0].trim(), partes[1].trim(), Integer.parseInt(partes[2].trim()))); //los datos dentro del constructor son lugar, comuna y la produccion en toneladas
+                    datosUnidad.add(new CentrosCultivo(partes[0].trim(), partes[1].trim(), Integer.parseInt(partes[2].trim())));
                 }
                 else if(partes[3].strip().toLowerCase().equals("planta")){
                     datosPlanta.add(new PlantaProceso(partes[0].trim(), partes[1].trim(), Integer.parseInt(partes[2].trim()))); //los datos dentro del constructor son lugar, comuna y la capacidad en toneladas
+                    datosUnidad.add(new PlantaProceso(partes[0].trim(), partes[1].trim(), Integer.parseInt(partes[2].trim())));
                 }
             }
-            datosUnidad.addAll(datosCentro);
-            datosUnidad.addAll(datosPlanta);
         } catch (Exception e) { //antes solo detectaba si habia un problema al abrir el archivo pero ahora tambien detecta si en el espacio del contructor que pide un entero le coloco un un string que no se puede convertir a entero
             System.out.println("Error al leer datos");
             System.out.println(e.getMessage());
