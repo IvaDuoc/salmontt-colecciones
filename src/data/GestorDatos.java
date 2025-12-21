@@ -1,9 +1,11 @@
 package data;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.BufferedReader;
 import java.util.ArrayList;
 import model.CentrosCultivo;
 import model.PlantaProceso;
+import model.Registrable;
 import model.UnidadOperativa;
 
 
@@ -11,13 +13,15 @@ public class GestorDatos {
     //en cada arreglo hay 5 elementos de cada subclase creo que eso contaria como mas del minimo de 2 objetos creados por metodo
     private ArrayList<CentrosCultivo> datosCentro = new ArrayList<CentrosCultivo>();
     private ArrayList<PlantaProceso> datosPlanta = new ArrayList<PlantaProceso>();
-    private ArrayList<UnidadOperativa> datosUnidad = new ArrayList<UnidadOperativa>();
+    private ArrayList<Registrable> datosUnidad = new ArrayList<Registrable>();
+    private String archivo;
 
     public GestorDatos(String file) {
         setDatos(file);
     }
     public void setDatos(String file) {
         try(BufferedReader br = new BufferedReader(new FileReader(file))){
+            archivo = file;
             String linea;
             while ((linea = br.readLine()) != null){
                 String[] partes = linea.split(";");
@@ -41,8 +45,23 @@ public class GestorDatos {
     public ArrayList<PlantaProceso> getDatosPlanta() {
         return datosPlanta;
     }
-    public ArrayList<UnidadOperativa> getDatosUnidad() {
+    public ArrayList<Registrable> getDatosUnidad() {
         return datosUnidad;
+    }
+    public void anadir(Registrable dato) {
+        try(FileWriter fw = new FileWriter(archivo, true)) {
+            if (dato instanceof CentrosCultivo) {
+                fw.write("\n" + ((CentrosCultivo) dato).getLugar() + ";" + ((CentrosCultivo) dato).getComuna() + ";" + Integer.toString(((CentrosCultivo) dato).getProduccion()) + ";centro");
+                datosCentro.add((CentrosCultivo) dato);
+                datosUnidad.add((CentrosCultivo) dato);
+            } else if (dato instanceof PlantaProceso) {
+                fw.write("\n" + ((PlantaProceso) dato).getLugar() + ";" + ((PlantaProceso) dato).getComuna() + ";" + Integer.toString(((PlantaProceso) dato).getCapacidad()) + ";planta");
+                datosPlanta.add((PlantaProceso) dato);
+                datosUnidad.add((PlantaProceso) dato);
+            }
+        } catch (Exception e) {
+            System.out.println("Error al anadir datos");
+        }
     }
 
     @Override

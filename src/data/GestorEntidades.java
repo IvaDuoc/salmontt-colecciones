@@ -10,6 +10,9 @@ public class GestorEntidades {
     public GestorEntidades() {
         entidades = new ArrayList<>();
     }
+    public void agregarLista(ArrayList<Registrable> lista) {
+        entidades.addAll(lista);
+    }
     public void agregarEntidad(Registrable entidad) {
         entidades.add(entidad);
     }

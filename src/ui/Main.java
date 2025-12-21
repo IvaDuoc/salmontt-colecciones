@@ -13,7 +13,10 @@ import javax.swing.*;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        GestorDatos col = new GestorDatos("/Users/AReve/Desktop/java/Ivan_Reveco_Construyendo una lista de objetos desde archivo_Semana4/resources/centros.txt");//este string es la direccion del archivo .txt o .csv (con ;)
         GestorEntidades lista = new GestorEntidades();
+        lista.agregarLista(col.getDatosUnidad());
+
         String[] opciones = {"Agregar Centro de Cultivo", "Agregar Planta de Proceso", "Mostrar Resumen", "Salir"};
         int opcion;
 
@@ -34,6 +37,7 @@ public class Main {
                             throw new RuntimeException();
                         }
                         lista.agregarEntidad(new CentrosCultivo(lugarCC, comunaCC, produccion));
+                        col.anadir(new CentrosCultivo(lugarCC, comunaCC, produccion));
                     } catch (Exception e) {
                         if (e.getClass() != RuntimeException.class) {
                             JOptionPane.showMessageDialog(null, "Debe ingresar un entero positivo", "Error", JOptionPane.ERROR_MESSAGE);
@@ -53,6 +57,7 @@ public class Main {
                             throw new RuntimeException();
                         }
                         lista.agregarEntidad(new PlantaProceso(lugarPP, comunaPP, capacidad));
+                        col.anadir(new PlantaProceso(lugarPP, comunaPP, capacidad));
                     } catch (Exception e) {
                         if (e.getClass() != RuntimeException.class) {
                             JOptionPane.showMessageDialog(null, "Debe ingresar un entero positivo", "Error", JOptionPane.ERROR_MESSAGE);
@@ -76,36 +81,6 @@ public class Main {
             }
         } while (opcion != 3); //Salir
 
-        /* estas lineas no son necesarias para la actividad de esta semana 8
-        GestorDatos col = new GestorDatos("/Users/AReve/Desktop/java/Ivan_Reveco_Construyendo una lista de objetos desde archivo_Semana4/resources/centros.txt");//este string es la direccion del archivo .txt o .csv (con ;)
-        for (UnidadOperativa i : col.getDatosUnidad()) {
-            i.mostrarInformacion();
-            System.out.println(""); // para una mejor visualizacion
-        }
 
-        System.out.println(col.toString()); //muestra la lista leida del archivo .txt o .csv (con ;)
-        ArrayList<CentrosCultivo> listaCentros = new ArrayList<CentrosCultivo>();
-        ArrayList<PlantaProceso> listaPlantas = new ArrayList<PlantaProceso>();
-        for (CentrosCultivo i : col.getDatosCentro()){
-            if (i.getProduccion() > 2){ //la condicion para llegar a la lista final es tener una produccion mayor a 2
-                listaCentros.add(i);
-            }
-        }
-        for (PlantaProceso i : col.getDatosPlanta()){
-            if (i.getCapacidad() > 2){ //la condicion para llegar a la lista final es tener una capacidad mayor a 2
-                listaPlantas.add(i);
-            }
-        }
-        System.out.println("---------");
-        System.out.println("Filtrados");
-        System.out.println("---------\n");
-        System.out.println("Centros de cultivo:");
-        for (CentrosCultivo i : listaCentros){
-            System.out.println(i.toString()); //mustra la lista filtrada
-        }
-        System.out.println("\nPlantas de proceso:");
-        for (PlantaProceso i : listaPlantas){
-            System.out.println(i.toString());
-        }*/
     }
 }

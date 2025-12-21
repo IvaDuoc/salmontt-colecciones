@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Actividad sumativa semana 8 – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Iván Reveco Molina
@@ -39,16 +39,18 @@ git clone https://github.com/IvaDuoc/salmontt-colecciones.git
 
 2. Abre el proyecto en IntelliJ IDEA.
 
+3. Verifica que los archivos `.txt` o `.csv` estén correctamente ubicados.
+
 3. Ejecuta el archivo `Main.java` desde el paquete `ui`.
 
 ---
 
 **Repositorio GitHub:** \https://github.com/IvaDuoc/salmontt-colecciones.git
-**Fecha de entrega:** \[15/12/2025]
+**Fecha de entrega:** \[21/12/2025]
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Actividad sumativa de la semana 8
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluación Final Transversal EFT
 
 
 
